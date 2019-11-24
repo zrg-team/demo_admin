@@ -1,0 +1,64 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ant-design-pro": "^2.3.2",
+    "antd": "3.19.1",
+    "axios": "^0.18.0",
+    "bignumber.js": "^9.0.0",
+    "froala-editor": "^3.0.0-rc.2",
+    "i18n-js": "https://github.com/fnando/i18n-js/tarball/v3.0.0",
+    "interactjs": "^1.5.4",
+    "lottie-web": "^5.5.3",
+    "moment": "^2.24.0",
+    "randomcolor": "^0.5.4",
+    "react": "^16.8.6",
+    "react-calendar-timeline": "^0.26.1",
+    "react-dom": "^16.8.6",
+    "react-froala-wysiwyg": "^3.0.0-rc.2-2",
+    "react-google-recaptcha": "^2.0.0-rc.1",
+    "react-highlight-words": "^0.16.0",
+    "react-items-carousel": "^2.6.1",
+    "react-loading-bar": "^0.0.7",
+    "react-quill": "^1.3.3",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "3.0.1",
+    "react-transition-group": "^1.2.1",
+    "react-trello": "^2.2.2",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.6.1",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^0.16.2",
+    "reselect": "^4.0.0"
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "npm run local_config && react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false PUBLIC_URL=/static/admin react-scripts build && npm run move_source",
+    "build:local": "npm run local_config && npm run build",
+    "local_config": "rm -rf src/configs/index.js && cp src/configs/index.local.js src/configs/index.js",
+    "move_source": "cp -a build/* ../frontend/static/admin/"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,510 @@
+    /*all*/
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+    #edit-margin-right{
+        margin-right: 0px !important;
+    }
+    .card-admin-job{
+        width: 100%;
+        height: auto;
+        display: flex;
+        /* flex-wrap: wrap; */
+        margin-bottom: 10px;
+    }
+    .advanced-search-width{
+        width: 900px;
+    }
+    .col-1-4{
+        width: 25%;
+    }
+    .col-3-4{
+        width: 75%;
+    }
+    .col-1-2{
+        width: calc(50% - 10px);
+    }
+    .margin-left-25{
+        margin-left: -25px;
+    }
+    .padding-left-25{
+        padding-left: 0px;
+    }
+    .status{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .project-board-panel{
+        height: 100%;
+        display: block;
+    }
+    .display-flex{
+        display: flex;
+    }
+    .ant-upload-list-item-name{
+        width: 150px;
+    }
+    .anticon-paper-clip{
+        width: 0px;
+    }
+    .sticky{
+        position: sticky;
+    }
+    .avatar-feelancer{
+        width: 200px;
+        height: 200px;
+    }
+    .responsive-mobile{
+        margin-left: 0px !important;
+        margin-top: 10px !important;
+        margin-right: 10px !important;
+    }
+    .create-resume-col{
+        display: flex;
+    }
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+    .ant-col-8{
+        width: calc(33.3333% - 10px);
+    }
+    .margin-top-20{
+        margin-top: 20px !important;
+    }
+    .PackageCreateForm-col{
+        width: 50%;
+    }
+    /*AdministratorList*/
+    .administrator-search-username{
+        width: 200px;
+        margin: 0px 10px;
+    }
+    .adminitrator{
+        width: 100%;
+    }
+    .administrator-all{
+        width: 140px;
+        margin-right: 10px;
+    }
+    /*MainLayout*/
+    .mainLayout-content{
+        min-height: auto;
+        background-color: #e4eaf6;
+        padding: 20px;
+        overflow: auto;
+    }
+    /*EmployerList*/
+    .employer-form-left{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .form-search{
+        margin-left: auto;
+        display: flex
+    }
+    /*JobCategoryListPage*/    
+    .JobCategoryListPage{
+        display: flex;
+    }
+    /*create-employer*/
+    .create-employer-col{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: space-around;
+    }
+    /*LocationList*/
+    .location{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .img-map{
+        width: 360px;
+        height: 360px;
+    }
+    /*PackageList*/
+    .input-search-package{
+        width: 200px;
+        margin-left: auto;
+    }
+    /*freelancer*/
+    .freelancer-review{
+        display: flex;
+    }
+    .avatar-img{
+        width: 100%;
+        padding-top: 100%;
+    }
+    .edit-profile-avatar > .ant-card-body{
+        padding: 5%;
+    }
+    .edit-profile-upload-width{
+        width: 100%;
+    }
+    .edit-profile-upload-width > div > span{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+@media only screen and (max-width: 769px){
+    /*all*/
+    .ant-card-body{
+        padding: 10px;
+    }
+    .col-1-4{
+        width: 100%;
+    }
+    .col-3-4{
+        width: 100%;
+    }
+    /*JobCategoryListPage*/    
+    .JobCategoryListPage{
+        display: block;
+    }
+    .freelancer-review{
+        display:block;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 769px){
+    
+    /*all*/
+    .card-admin-job{
+        display: block;
+    }
+    .responsive-mobile{
+        min-width: calc(50% - 15px) !important;
+        margin-top: 10px !important;
+        margin-left: 0px !important;
+    }
+    .card-admin-job>.ant-input-affix-wrapper{
+        min-width: calc(50% - 10px) !important;
+        max-width: calc(50% - 10px) !important;
+    }
+    .responsive-mobile>.ant-input-affix-wrapper{
+        max-width: 100% !important;
+    }
+    .col-1-2{
+        width: calc(50% - 10px) !important;
+    }
+    .sticky{
+        position: unset;
+        top: 0px;
+    }
+    .create-resume-col{
+        display: flex;
+    }
+    .card-admin-job>.responsive-mobile>.ant-row{
+        width: 100%;
+    }
+    .tablet-input{
+        max-width: 50%;
+    }
+    .tablet-full{
+        width: 100%;
+    }
+    .tablet-text{
+        width: 100%
+    }
+    .freelancer-review-col{
+        width: 100% !important;
+    }
+    /*AdministratorList*/
+    .administrator-search-username{
+        width: calc(50% - 5px);
+        margin-right: 0px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .adminitrator{
+        width: 100%;
+    }
+    .administrator-all{
+        width: calc(50% - 5px);
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .administrator-button{
+        width: calc(50% - 5px);
+        margin-bottom: 10px;
+    }
+    .sticky{
+        position: unset;
+    }
+    /*MainLayout*/
+    .mainLayout-content{
+        padding: 10px;
+    }
+    /*EmployerList*/
+    .employer-form-left{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .employer-form-left button{
+        margin-top: 10px;
+    }
+    .form-search{
+        margin-top: 10px;
+    }   
+    /*create-employer*/
+    .create-employer-col{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: space-around;
+    }
+    /*profile*/
+    .img-profile{
+        max-width: 200px;
+    }
+    .avatar-img{
+        width: 50%;
+        padding-top: 50%;
+        margin-left: 25%;
+    }
+    .edit-profile-upload-width > div > span{
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 426px){
+    .card-skill{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .card-location{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .job-categoryform{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .job-categorylist{
+        width: 100% !important;
+        margin: 0 !important;
+        margin-top: 10px !important;
+    }
+    .tablet-text{
+        width: 100%;
+        font-size: 1em !important;
+    }
+    .freelancer-review-col{
+        width: 100%;
+    }
+    /*all*/
+    .card-admin-job{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .responsive-mobile{
+        width: 100% !important;
+        margin-bottom: 10px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-top: 10px !important;
+    }
+    .col-1-2{
+        width: 100%;
+    }
+    .display-flex{
+        display: block;
+    }
+    .sticky{
+        position: unset;
+        top: 0px;
+    }
+    .resume-col-1-4{
+        width: 100%;
+    }
+    .resume-col-3-4{
+        width: 100%;
+    }
+    .create-resume-col{
+        display: block;
+    }
+    .project-board-panel{
+        height: min-content;
+        display: block;
+    }
+    .mobile-width-full{
+        width: 100%;
+    }
+    .sticky{
+        position: unset;
+    }
+    .tablet-full{
+        width: 100%;
+    }
+    .ant-col-8{
+        width: 100%;
+    }
+    .PackageCreateForm-col{
+        width: 100%;
+    }
+    /*AdministratorList*/
+    .administrator-search-username{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .adminitrator{
+        width: 100%;
+    }
+    .administrator-all{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .administrator-button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /*MainLayout*/
+    .mainLayout-content{
+        padding: 10px;
+    }
+    /*EmployerList*/
+    .employer-form-left{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .form-search{
+        display: block;
+    } 
+    /*create-employer*/
+    .create-employer-col{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+        justify-content: space-around;
+    }  
+    /*EmployerSearchForm*/
+    .status{
+        padding-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    /*LocationList*/
+    .location{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .img-map{
+        width: 100%;
+        height:100%;
+    }
+    .ant-statistic-content-value{
+        font-size: 12px;
+    }
+    .ant-descriptions-item-content,.ant-descriptions-item-label{
+        padding: 5px !important;
+    }
+    .input-search-package{
+        width: 100% !important;
+        margin-left: auto;
+    }
+    .avatar-img{
+        width: 100%;
+        padding-top: 100%;
+
+    }
+    .ant-checkbox-wrapper{
+        margin-left: 0px !important;
+        margin-top: 5px !important;
+        margin-right: 8px !important;
+    }
+    .padding-left-25{
+        padding-left: 25px;
+    }
+    .margin-left-25{
+        margin-left: 0px;
+    }
+    .email-user{
+        min-width: unset;
+        width: 80px;
+    }
+   
+}
+@media only screen and (max-width: 376px){
+    .email-user{
+        min-width: unset;
+        width: 82px;
+    }
+    .switch-avatar{
+        padding: 0 !important;
+    }
+    .switch{
+        margin-right: 2px !important;
+    }
+}
+@media only screen and (max-width: 320px){
+    .email-user-responsive{
+        width: 85px !important;
+    }
+    .email-user{
+        min-width: unset;
+        width: 50px;
+    }
+    .switch-avatar{
+        padding: 0 !important;
+    }
+    .switch{
+        margin-right: 2px !important;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1250px){
+    .avatar-feelancer{
+        width: 150px;
+        height: 150px;
+    }
+    .button-upload-avatar{
+        font-size: 12px !important;
+    }
+    
+}
+@media only screen and (min-width: 760px) and (max-width: 900px){
+    .advanced-search-width{
+        width: 740px;
+    }
+}
+@media only screen and (max-width: 769px){
+    /*all*/
+    .ant-card-body{
+        padding: 10px;
+    }
+    .col-1-4{
+        width: 100%;
+    }
+    .col-3-4{
+        width: 100%;
+    }
+    /*JobCategoryListPage*/    
+    .JobCategoryListPage{
+        display: block;
+    }
+    .freelancer-review{
+        display:block;
+    }
+
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
