@@ -5,7 +5,7 @@
   "dependencies": {
     "ant-design-pro": "^2.3.2",
     "antd": "3.19.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bignumber.js": "^9.0.0",
     "froala-editor": "^3.0.0-rc.2",
     "i18n-js": "https://github.com/fnando/i18n-js/tarball/v3.0.0",
